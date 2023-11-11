@@ -60,6 +60,18 @@
   color: #000;
 }
 
+.navbar {
+  height: 80px;
+}
+
+.navbar__title {
+  font-size: 28px;
+}
+
+.navbar__item {
+  font-weight: 700;
+}
+
 .main-wrapper {
   /* background: url(../../static/img/bg.png) no-repeat center center/cover; */
 }

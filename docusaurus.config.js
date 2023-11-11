@@ -13,25 +13,22 @@ const config = {
   favicon: "img/spike.ico",
   plugins: ["@docusaurus/theme-live-codeblock"],
   // Set the production url of your site here
-  url: "https://your-docusaurus-site.example.com",
+  url: "https://codeusb.github.io/",
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: "/",
+  baseUrl: "/sex-blog/",
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: "facebook", // Usually your GitHub org/user name.
-  projectName: "docusaurus", // Usually your repo name.
+  organizationName: "codeusb", // Usually your GitHub org/user name.
+  projectName: "sex-blog", // Usually your repo name.
+  deploymentBranch: "gh-pages",
 
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
-
-  // Even if you don't use internationalization, you can use this field to set
-  // useful metadata like html lang. For example, if your site is Chinese, you
-  // may want to replace "en" with "zh-Hans".
   i18n: {
-    defaultLocale: "en",
-    locales: ["en"],
+    defaultLocale: "zh-Hans",
+    locales: ["zh-Hans"],
   },
 
   presets: [
@@ -43,15 +40,11 @@ const config = {
           sidebarPath: "./sidebars.js",
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
+          // editUrl:
+          //   "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
         },
         blog: {
           showReadingTime: true,
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
         },
         theme: {
           customCss: "./src/css/custom.css",
@@ -69,7 +62,7 @@ const config = {
         },
       },
       navbar: {
-        title: "Sexxion",
+        title: "Sexxion_XX",
         items: [
           {
             type: "search",
@@ -77,13 +70,11 @@ const config = {
           },
           {
             type: "doc",
-            // sidebarId: "tutorialSidebar",
             docId: "introduction",
             position: "left",
             label: "文档",
           },
           { to: "/blog", label: "博客", position: "left" },
-
           // {
           //   type: "localeDropdown",
           //   position: "right",
@@ -95,12 +86,12 @@ const config = {
             position: "right",
           },
           {
-            href: "https://github.com/codeusb",
+            href: "https://juejin.cn/user/2124701246954029",
             className: "xtjj",
             position: "right",
           },
           {
-            href: "https://github.com/codeusb",
+            href: "https://leetcode.cn/u/sexxion__xx/",
             className: "leetcode",
             position: "right",
           },
@@ -120,7 +111,7 @@ const config = {
       announcementBar: {
         id: "support_us",
         content:
-          '⭐喜欢这个网站的话,欢迎给一个 star 支持作者 <a target="_blank" rel="noopener noreferrer" href="https://github.com/codeusb" >GitHub</a>',
+          '⭐如果您喜欢这个网站,请在 GitHub 上给它一颗星！ <a target="_blank" rel="noopener noreferrer" href="https://github.com/codeusb/sex-blog" >GitHub</a>',
         backgroundColor: "#fafbfc",
         textColor: "#091E42",
         isCloseable: true,

@@ -12,7 +12,7 @@ function HomepageHeader() {
   return (
     <header className={clsx("hero hero--primary", styles.heroBanner)}>
       <div className="container">
-        <img src={pic} style={{ borderRadius: "50%" }} />
+        <img width={300} src={pic} style={{ borderRadius: "50%" }} />
         <Heading as="h1" className="hero__title">
           {siteConfig.title}
         </Heading>

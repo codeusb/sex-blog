@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunksex_blog=self.webpackChunksex_blog||[]).push([[2535],{5641:e=>{e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"2023 \u5e74\u5ea6\u603b\u7ed3","permalink":"/sex-blog/blog/first-blog-post","unlisted":false},{"title":"First MDX","permalink":"/sex-blog/blog/mdx-blog-post","unlisted":false}]}')}}]);

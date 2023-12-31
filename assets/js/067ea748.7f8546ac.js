@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunksex_blog=self.webpackChunksex_blog||[]).push([[3066],{1029:e=>{e.exports=JSON.parse('{"permalink":"/sex-blog/blog","page":1,"postsPerPage":10,"totalPages":1,"totalCount":2,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);

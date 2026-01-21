@@ -227,10 +227,3 @@ _思考_
 
 如果文中有误，还望指出。
 
-https://zhuanlan.zhihu.com/p/102149546
-
-https://juejin.cn/post/6844903574535667719#heading-16
-
-https://juejin.cn/post/6935232082482298911?searchId=202308211925443A86748DAA5DDDD77716#heading-44
-
-https://zhuanlan.zhihu.com/p/80551769

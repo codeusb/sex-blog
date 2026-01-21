@@ -79,43 +79,16 @@ const config = {
           //   type: "localeDropdown",
           //   position: "right",
           // },
-          {
-            href: "https://github.com/codeusb",
-            // label: "Github",
-            className: "github",
-            position: "right",
-          },
-          {
-            href: "https://juejin.cn/user/2124701246954029",
-            className: "xtjj",
-            position: "right",
-          },
-          {
-            href: "https://leetcode.cn/u/sexxion__xx/",
-            className: "leetcode",
-            position: "right",
-          },
-          {
-            type: "dropdown",
-            label: "友链",
-            position: "right",
-            items: [
-              {
-                label: "Github",
-                href: "https://github.com/codeusb",
-              },
-            ],
-          },
         ],
       },
-      announcementBar: {
-        id: "support_us",
-        content:
-          '⭐如果您喜欢这个网站,请在 GitHub 上给它一颗星！ <a target="_blank" rel="noopener noreferrer" href="https://github.com/codeusb/sex-blog" >GitHub</a>',
-        backgroundColor: "#fafbfc",
-        textColor: "#091E42",
-        isCloseable: true,
-      },
+      // announcementBar: {
+      //   id: "support_us",
+      //   content:
+      //     '⭐如果您喜欢这个网站,请在 GitHub 上给它一颗星！ <a target="_blank" rel="noopener noreferrer" href="https://github.com/codeusb/sex-blog" >GitHub</a>',
+      //   backgroundColor: "#fafbfc",
+      //   textColor: "#091E42",
+      //   isCloseable: true,
+      // },
       // footer: {
       //   // style: "dark",
       //   links: [

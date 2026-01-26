@@ -6,6 +6,7 @@ import HomepageFeatures from "@site/src/components/HomepageFeatures";
 import pic from "../../static/img/spike.jpg";
 import Heading from "@theme/Heading";
 import styles from "./index.module.css";
+import Head from "@docusaurus/Head";
 
 function HomepageHeader() {
   const { siteConfig } = useDocusaurusContext();
@@ -18,7 +19,10 @@ function HomepageHeader() {
         </Heading>
         <p className="hero__subtitle">{siteConfig.tagline}</p>
         <div className={styles.buttons}>
-          <Link className="button button--secondary button--lg" to="/docs/introduction">
+          <Link
+            className="button button--secondary button--lg"
+            to="/docs/introduction"
+          >
             进入博客 →
           </Link>
         </div>
@@ -31,8 +35,13 @@ export default function Home() {
   const { siteConfig } = useDocusaurusContext();
   return (
     <Layout
-      title={`Hello from ${siteConfig.title}`}
-      description="Description will go into a meta tag in <head />">
+      // title={`Sexxion个人网站`}
+      description="Description will go into a meta tag in <head />"
+    >
+      <Head>
+        <title>Sexxion个人网站</title>
+        <meta property="og:title" content="Sexxion个人网站" />
+      </Head>
       <HomepageHeader />
       <main>
         <HomepageFeatures />

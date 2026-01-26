@@ -8,7 +8,7 @@ import { themes as prismThemes } from "prism-react-renderer";
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: "Sexxion",
+  title: "Sexxion个人网站",
   tagline: "Talk is cheap, show me the code",
   favicon: "img/spike.ico",
   plugins: ["@docusaurus/theme-live-codeblock"],
@@ -62,7 +62,7 @@ const config = {
         },
       },
       navbar: {
-        title: "Sexxion_XX",
+        title: "Sexxion个人网站",
         items: [
           {
             type: "search",
@@ -89,51 +89,23 @@ const config = {
       //   textColor: "#091E42",
       //   isCloseable: true,
       // },
-      // footer: {
-      //   // style: "dark",
-      //   links: [
-      //     {
-      //       title: "Docs",
-      //       items: [
-      //         {
-      //           label: "Tutorial",
-      //           to: "/docs/intro",
-      //         },
-      //       ],
-      //     },
-      //     {
-      //       title: "Community",
-      //       items: [
-      //         {
-      //           label: "Stack Overflow",
-      //           href: "https://stackoverflow.com/questions/tagged/docusaurus",
-      //         },
-      //         {
-      //           label: "Discord",
-      //           href: "https://discordapp.com/invite/docusaurus",
-      //         },
-      //         {
-      //           label: "Twitter",
-      //           href: "https://twitter.com/docusaurus",
-      //         },
-      //       ],
-      //     },
-      //     {
-      //       title: "More",
-      //       items: [
-      //         {
-      //           label: "Blog",
-      //           to: "/blog",
-      //         },
-      //         {
-      //           label: "GitHub",
-      //           href: "https://github.com/facebook/docusaurus",
-      //         },
-      //       ],
-      //     },
-      //   ],
-      //   copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
-      // },
+      /**
+       *  <div>
+            <a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=11010102000001" target="_blank" rel="noopener noreferrer" style="color: #1890ff; text-decoration: none;">
+              <span style="display: inline-block; width: 16px; height: 16px; margin-right: 4px; vertical-align: middle; background: #8b4513; border-radius: 50%;"></span>
+              京公网安备 11010102000001号
+            </a>
+          </div>
+       */
+      footer: {
+        copyright: `<div style="display: flex; flex-direction: column; align-items: center; gap: 8px;">
+          <div>
+            <a href="https://beian.miit.gov.cn/" target="_blank" rel="noopener noreferrer" style="color: #1890ff; text-decoration: none;">
+              浙ICP备2026002182号
+            </a>
+          </div>
+        </div>`,
+      },
       prism: {
         theme: prismThemes.github,
         darkTheme: prismThemes.dracula,

@@ -13,7 +13,6 @@ sidebar_position: 1
 
 Sexxion_XX 🆒
 
-前端练习生 😎
 
 ## 关于网站
 

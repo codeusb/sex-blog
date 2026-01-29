@@ -89,16 +89,15 @@ const config = {
       //   textColor: "#091E42",
       //   isCloseable: true,
       // },
-      /**
-       *  <div>
-            <a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=11010102000001" target="_blank" rel="noopener noreferrer" style="color: #1890ff; text-decoration: none;">
-              <span style="display: inline-block; width: 16px; height: 16px; margin-right: 4px; vertical-align: middle; background: #8b4513; border-radius: 50%;"></span>
-              京公网安备 11010102000001号
+      footer: {
+        copyright: `
+        <div style="display: flex; flex-direction: column; align-items: center; gap: 8px;">
+          <div>
+            <a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=33010602014285" target="_blank" rel="noopener noreferrer" style="display: flex; align-items: center;just-content: center; gap: 8px; color: #1890ff; text-decoration: none;">
+            <img src="./img/logo.png" style="width: 16px;">
+              浙公网安备33010602014285号
             </a>
           </div>
-       */
-      footer: {
-        copyright: `<div style="display: flex; flex-direction: column; align-items: center; gap: 8px;">
           <div>
             <a href="https://beian.miit.gov.cn/" target="_blank" rel="noopener noreferrer" style="color: #1890ff; text-decoration: none;">
               浙ICP备2026002182号
